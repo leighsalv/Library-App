@@ -9,7 +9,8 @@ module.exports = {
   ],
   extends: [
     'eslint:recommended',
-    'plugin:ember/recommended'
+    'plugin:ember/recommended',
+    'skipStrings': true,
   ],
   env: {
     browser: true
