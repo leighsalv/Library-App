@@ -9,13 +9,13 @@ module.exports = {
   ],
   extends: [
     'eslint:recommended',
-    'plugin:ember/recommended',
-    'skipStrings': true,
+    'plugin:ember/recommended'
   ],
   env: {
     browser: true
   },
   rules: {
+    'ember/closure-actions': 1
   },
   overrides: [
     // node files

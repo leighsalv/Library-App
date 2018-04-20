@@ -1,8 +1,12 @@
 import Controller from '@ember/controller';
-import { match, not } from '@ember/object/computed';
+import {
+  match,
+  not
+} from '@ember/object/computed';
 
 export default Controller.extend({
 
+  headerMessage: 'Coming Soon',
   responseMessage: '',
   emailAddress: '',
 

@@ -6,12 +6,12 @@ import {
   setupTest
 } from 'ember-qunit';
 
-module('Unit | Controller | index', function(hooks) {
+module('Unit | Controller | contact', function(hooks) {
   setupTest(hooks);
 
   // Replace this with your real tests.
   test('it exists', function(assert) {
-    let controller = this.owner.lookup('controller:index');
+    let controller = this.owner.lookup('controller:contact');
     assert.ok(controller);
   });
 });
